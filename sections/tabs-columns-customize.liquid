@@ -1,0 +1,203 @@
+{% stylesheet %}
+  .main-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: green;
+  }
+  ul.custom--tabs {
+    list-style-type: none;
+    width: 1200px;
+    max-width: 100%;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .custom--tabs .tab__list {
+
+    display: flex;
+
+  }
+
+  .custom__tab-content {
+    display: none;
+  }
+  .custom__tab-content ul {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allows items to wrap to the next row */
+    list-style-type: none;
+    /* Removes bullet points */
+    padding: 0;
+    /* Removes default padding */
+    margin: 0;
+    /* Removes default margin */
+  }
+  .custom__tab-content li {
+    list-style: none;
+    flex-grow: 1;
+    flex-basis: calc(100% / 5 - 10px);
+    /* Distribute space for 5 items, subtract margins */
+    min-width: calc(100% / 5 - 10px);
+    /* Minimum width ensures 5 items per row */
+    box-sizing: border-box;
+    /* Ensures padding/margin doesn’t affect the width */
+    padding: 10px;
+    /* Optional: space around items */
+    background-color: #374931;
+    margin: 5px;
+    /* Optional: space between items */
+    transition: background-color 0.3s ease;
+
+  }
+  .custom__tab-content li:hover {
+    background-color: #88976d;
+    /* Lighter color on hover */
+
+  }
+
+  .custom__tab-content li a {
+    text-decoration: none;
+    color: white;
+    /* Optional: set text color to contrast the background */
+  }
+  .custom__tab-content.active {
+    display: flex
+  }
+  .tab__list h2.custom-tab {
+    display: inline-block !important;
+    padding: 10px 15px !important;
+    cursor: pointer !important;
+    margin: 0 !important;
+  }
+  .active-always {
+    display: block !important;
+  }
+  .tab__list h2.custom-tab.active {
+
+    border-bottom: 5px solid green !important;
+    background-color: #dfdfdf;
+  }
+  @media only screen and (max-width: 1200px) {
+    .custom__tab-content li {
+      flex-basis: calc(100% / 3 - 10px);
+      /* Adjust for fewer items */
+      min-width: calc(100% / 3 - 10px);
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .custom__tab-content li {
+      flex-basis: calc(100% / 2 - 10px);
+      /* Adjust for smaller screens */
+      min-width: calc(100% / 2 - 10px);
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    .custom__tab-content li {
+      flex-basis: 100%;
+      min-width: 100%;
+      /* Full width on small screens */
+    }
+  }
+  .custom--tabs .tab__list .custom-tab {
+    margin: 0 !important;
+    width: 100%;
+    padding: 10px 15px !important;
+    border-bottom: none !important;
+  }
+  .tab__list h2.custom-tab {
+    padding: 0 !important;
+    margin: 10px 0 !important;
+  }
+
+{% endstylesheet %}
+
+<div class="custom-tabs-section">
+  <h2 class="main-title">{{ section.settings.main_title }}</h2>
+
+  <ul class="custom--tabs page-width">
+    {% for block in section.blocks %}
+      {% if block.type == 'tab' %}
+        <li class="tab__list {% if forloop.first %}active{% endif %}">
+          <h2 class="custom-tab" data-content-id="content--{{ block.id }}--{{ section.id }}">
+            {{ block.settings.heading }}
+          </h2>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  {% for block in section.blocks %}
+    {% if block.type == 'tab' %}
+      <div id="content--{{ block.id }}--{{ section.id }}" class="custom__tab-content page-width {% if forloop.first %}active{% endif %}">
+        {{ block.settings.tab_content }}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% javascript %}
+  tabs = document.querySelectorAll('.custom-tab');
+  tabContents = document.querySelectorAll('.custom__tab-content');
+
+  tabs.forEach(function(tab) {
+    tab.addEventListener('click', function() {
+
+      contentId = this.dataset.contentId;
+      content = document.getElementById(contentId);
+
+      tabContents.forEach(function(content) {
+        content.classList.remove('active');
+      });
+
+      tabs.forEach(function(tab) {
+        tab.classList.remove('active');
+      });
+
+      this.classList.add('active');
+      content.classList.add('active');
+    });
+  });
+{% endjavascript %}
+{% schema %}
+  {
+    "name": "Tabs Columns",
+    "settings": [
+      {
+        "type": "text",
+        "id": "main_title",
+        "label": "Main Title",
+        "default": "Your Main Title"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "tab",
+        "name": "Tabs",
+        "settings": [
+          {
+            "type": "text",
+            "id": "heading",
+            "label": "Heading",
+            "info": "Include a heading that explains the tab."
+          }, {
+            "type": "richtext",
+            "id": "tab_content",
+            "label": "Content"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Tabs Columns",
+        "blocks": [
+          {
+            "type": "tab"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,112 @@
+{% if section.blocks.size > 0 %}
+  <div class="tabs-section page-width">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="//code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+    {% if section.settings.title != blank %}
+      <h2 class="h1">{{ section.settings.title }}</h2>
+    {% endif %}
+    
+    <div id="tabs" class="tabs">
+      {% assign tabContent = '' %}
+      <ul>
+        {% for block in section.blocks %}
+          {% assign collection = collections[block.settings.collection] %}
+          <li>
+            <a href="#tabs-{{ collection.id }}">{{ collection.title }}</a>
+          </li>
+          {% capture content %}
+              <div id="tabs-{{ collection.id }}">
+                <ul class="grid product-grid grid--2-col-tablet-down  grid--4-col-desktop">
+                 {%- for product in block.settings.collection.products limit: 8 -%}
+                 <li class="grid__item scroll-trigger animate--slide-in">
+                    {% render 'card-product',
+                      card_product: product,
+                      media_aspect_ratio: section.settings.image_ratio,
+                      image_shape: section.settings.image_shape,
+                      show_secondary_image: section.settings.show_secondary_image,
+                      show_vendor: section.settings.show_vendor,
+                      show_rating: section.settings.show_rating,
+                      show_quick_add: section.settings.enable_quick_add,
+                      section_id: section.id
+                    %}
+                 </li>
+                {%- endfor -%}
+                </ul>
+              </div>
+          {%  endcapture %}
+          {% assign tabContent = tabContent | append: content %}
+        {% endfor %}
+      </ul>
+      {{ tabContent }}
+    </div>
+  </div>
+  <script>
+    $( function() {
+      $( "#tabs" ).tabs();
+    } );
+  </script>
+  <style>
+    .tabs {
+      background: none !important;
+      border: none !important
+    }
+    .tabs.ui-tabs .ui-tabs-nav {
+      background: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      border: none;
+    }
+    .tabs-section h2 {
+      text-align: center;
+    }
+    .tabs.ui-tabs .ui-tabs-nav li {
+      border: none;
+      background: none;
+    }
+    .tabs.ui-tabs .ui-tabs-nav li a {
+      color: #ddd;
+      padding: 5px 40px;
+      border-radius: 20px;
+    }
+    .tabs.ui-tabs .ui-tabs-nav li.ui-tabs-active a {
+      background: grey;
+    }
+  </style>
+{% endif %}
+{% schema %}
+  {
+    "name": "Tabs",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "tab",
+        "name": "Tab",
+        "limit": 5,
+
+        "settings": [
+          {
+            "type": "collection",
+            "id": "collection",
+            "label": "Collection"
+          }
+        ]
+
+      }
+    ],
+    "presets": [
+      {
+        "name": "Tabs",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}

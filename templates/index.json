@@ -171,67 +171,94 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
+    "multicolumn_TT8kJK": {
       "type": "multicolumn",
       "blocks": {
-        "column1": {
+        "column_k3VYM8": {
           "type": "column",
           "settings": {
-            "title": "Rubber",
+            "title": "<a href=\"\/collections\/rubber-casters\" title=\"Rubber\">Rubber<\/a>",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column2": {
+        "column_qckxCj": {
           "type": "column",
           "settings": {
-            "title": "Polyurethane on Cast Iron",
+            "title": "<a href=\"\/collections\/phenolic\" title=\"Phenolic\">Phenolic<\/a>",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column3": {
+        "column_cKthiU": {
           "type": "column",
           "settings": {
-            "title": "Polyurethane on Polyolefin",
+            "title": "<a href=\"\/collections\/metal-casters\" title=\"Steel\">Steel <\/a>",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_TQzmkz": {
+        "column_cK7zjg": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "<a href=\"\/collections\/solid-polyurethane\" title=\"Solid Polyurethane\">Solid Polyurethane<\/a>",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_TUnmk7": {
+        "column_GF7i6a": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "<a href=\"\/collections\/polyurethane-on-cast-iron\" title=\"Polyurethane on Cast Iron\">Polyurethane on Cast Iron<\/a>",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_hDjdYX": {
+        "column_QRxTy8": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "<a href=\"\/collections\/polyurethane-on-polyolefin\" title=\"Polyurethane on Polyolefin\">Polyurethane on Polyolefin<\/a>",
             "text": "",
             "link_label": "",
             "link": ""
           }
         },
-        "column_VMdUgU": {
+        "column_eGTVNL": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "title": "<a href=\"\/collections\/polyurethane-on-aluminum\" title=\"Polyurethane on Aluminum\">Polyurethane on Aluminum<\/a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6iMaVD": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"\/collections\/polyurethane-on-polypropylene\" title=\"Polyurethane on polypropylene\">Polyurethane on polypropylene <\/a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CRHCiU": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"\/collections\/high-temperature-nylon-glass\" title=\"High Temperature Nylon\/Glass\">High Temperature Nylon\/Glass<\/a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KNNMDR": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"\/collections\/high-temperature-epoxy-resin\" title=\"High Temperature Epoxy Resin\">High Temperature Epoxy Resin<\/a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -239,25 +266,122 @@
         }
       },
       "block_order": [
-        "column1",
-        "column2",
-        "column3",
-        "column_TQzmkz",
-        "column_TUnmk7",
-        "column_hDjdYX",
-        "column_VMdUgU"
+        "column_k3VYM8",
+        "column_qckxCj",
+        "column_cKthiU",
+        "column_cK7zjg",
+        "column_GF7i6a",
+        "column_QRxTy8",
+        "column_eGTVNL",
+        "column_6iMaVD",
+        "column_CRHCiU",
+        "column_KNNMDR"
       ],
+      "disabled": true,
       "settings": {
-        "title": "SHOP BY MATERIAL",
+        "title": "SHOPY BY MATERIAL",
         "heading_size": "h1",
-        "image_width": "third",
+        "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 5,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "tabs_columns_customize_UPFnF9": {
+      "type": "tabs-columns-customize",
+      "blocks": {
+        "tab_PKgcHX": {
+          "type": "tab",
+          "settings": {
+            "heading": "SHOPY BY MATERIAL",
+            "tab_content": "<ul><li><a href=\"\/collections\/rubber-casters\" target=\"_blank\" title=\"Rubber\">Rubber<\/a><\/li><li><a href=\"\/collections\/phenolic\" target=\"_blank\" title=\"Phenolic\">Phenolic<\/a><\/li><li><a href=\"\/collections\/metal-casters\" target=\"_blank\" title=\"Steel\">Steel<\/a><\/li><li><a href=\"\/collections\/solid-polyurethane\" target=\"_blank\" title=\"Solid Polyurethane\">Solid Polyurethane<\/a><\/li><li><a href=\"\/collections\/polyurethane-on-cast-iron\" target=\"_blank\" title=\"Polyurethane on Cast Iron\">Polyurethane on Cast Iron<\/a><\/li><li><a href=\"\/collections\/polyurethane-on-polyolefin\" target=\"_blank\" title=\"Polyurethane on Polyolefin\">Polyurethane on Polyolefin<\/a><\/li><li><a href=\"\/collections\/polyurethane-on-aluminum\" title=\"Polyurethane on Aluminum\">Polyurethane on Aluminum<\/a><\/li><li><a href=\"\/collections\/polyurethane-on-polypropylene\" target=\"_blank\" title=\"Polyurethane on polypropylene\">Polyurethane on polypropylene<\/a><\/li><li><a href=\"\/collections\/high-temperature-nylon-glass\" target=\"_blank\" title=\"High Temperature Nylon\/Glass\">High Temperature Nylon\/Glass<\/a><\/li><li><a href=\"\/collections\/high-temperature-epoxy-resin\" target=\"_blank\" title=\"High Temperature Epoxy Resin\">High Temperature Epoxy Resin<\/a><\/li><\/ul>"
+          }
+        },
+        "tab_cYwMCD": {
+          "type": "tab",
+          "settings": {
+            "heading": "SHOP BY TOP PALTE SIZE",
+            "tab_content": "<p><a href=\"\/collections\/3-5-8x-2-3-8\" title=\"3-5\/8&quot;x 2-3\/8&quot;\">3-5\/8\"x 2-3\/8\"<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab_PKgcHX",
+        "tab_cYwMCD"
+      ],
+      "settings": {
+        "main_title": ""
+      }
+    },
+    "category_multicolumn_customize_L6Ffwp": {
+      "type": "category-multicolumn-customize",
+      "blocks": {
+        "column_KXwNnt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/istockphoto_1987155572.jpg",
+            "title": "Aerospace",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bhU4EC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/istockphoto_1987155572.jpg",
+            "title": "Aerospace",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Q8fLJd": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/istockphoto_1987155572.jpg",
+            "title": "Aerospace",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8ibjtJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/istockphoto_1987155572.jpg",
+            "title": "Aerospace",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_KXwNnt",
+        "column_bhU4EC",
+        "column_Q8fLJd",
+        "column_8ibjtJ"
+      ],
+      "settings": {
+        "title": "Applications",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -269,6 +393,8 @@
     "slideshow_GDfMYg",
     "rich_text",
     "featured_collection",
-    "multicolumn"
+    "multicolumn_TT8kJK",
+    "tabs_columns_customize_UPFnF9",
+    "category_multicolumn_customize_L6Ffwp"
   ]
 }
