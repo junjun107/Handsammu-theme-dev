@@ -387,6 +387,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_video_custom_EWEDTK": {
+      "type": "multicolumn-video-custom",
+      "blocks": {
+        "column_NdbBRM": {
+          "type": "column",
+          "settings": {
+            "product_description_video": "https:\/\/youtu.be\/abgORaivfxI?si=1be2FreuLMPQA2TK",
+            "title": "Steel wheels with brakes",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XRiFEN": {
+          "type": "column",
+          "settings": {
+            "product_description_video": "https:\/\/youtu.be\/6LGx-QaJJvw",
+            "title": "Polyurethane caster with brake",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_NdbBRM",
+        "column_XRiFEN"
+      ],
+      "settings": {
+        "title": "VIDEOS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -395,6 +440,7 @@
     "featured_collection",
     "multicolumn_TT8kJK",
     "tabs_columns_customize_UPFnF9",
-    "category_multicolumn_customize_L6Ffwp"
+    "category_multicolumn_customize_L6Ffwp",
+    "multicolumn_video_custom_EWEDTK"
   ]
 }
