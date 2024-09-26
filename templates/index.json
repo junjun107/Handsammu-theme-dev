@@ -426,9 +426,42 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_X9qr3Y": {
+      "type": "multirow",
+      "blocks": {
+        "row_CHAKm4": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Our Story",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_CHAKm4"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -441,6 +474,7 @@
     "multicolumn_TT8kJK",
     "tabs_columns_customize_UPFnF9",
     "category_multicolumn_customize_L6Ffwp",
-    "multicolumn_video_custom_EWEDTK"
+    "multicolumn_video_custom_EWEDTK",
+    "multirow_X9qr3Y"
   ]
 }
