@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "slideshow_GDfMYg": {
@@ -6,7 +15,7 @@
         "slide_eEGTAP": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/HANDSAMMU_CASTERS.svg",
+            "image": "shopify://shop_images/HANDSAMMU_CASTERS.svg",
             "heading": "Rubber Casters",
             "heading_size": "hxl",
             "subheading": "",
@@ -24,7 +33,7 @@
         "slide_U3PyEN": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/steel2.svg",
+            "image": "shopify://shop_images/steel2.svg",
             "heading": "Steel Casters",
             "heading_size": "hxl",
             "subheading": "",
@@ -42,7 +51,7 @@
         "slide_nmXbdg": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_HANDSAMMU_CASTERS_1.svg",
+            "image": "shopify://shop_images/Copy_of_HANDSAMMU_CASTERS_1.svg",
             "heading": "Solid Polyurethane Casters",
             "heading_size": "h0",
             "subheading": "",
@@ -60,7 +69,7 @@
         "slide_PeHPYi": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Polyurethane_on_cast_iron.svg",
+            "image": "shopify://shop_images/Polyurethane_on_cast_iron.svg",
             "heading": "Polyurethane on Cast Iron Casters",
             "heading_size": "h0",
             "subheading": "",
@@ -78,7 +87,7 @@
         "slide_DQrJt7": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Polyurethane_on_Polyolefin.svg",
+            "image": "shopify://shop_images/Polyurethane_on_Polyolefin.svg",
             "heading": "Polyurethane on Polyolefin Casters",
             "heading_size": "h0",
             "subheading": "",
@@ -125,7 +134,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
           }
         }
       },
@@ -177,7 +186,7 @@
         "column_k3VYM8": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/rubber-casters\" title=\"Rubber\">Rubber<\/a>",
+            "title": "<a href=\"/collections/rubber-casters\" title=\"Rubber\">Rubber</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -186,7 +195,7 @@
         "column_qckxCj": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/phenolic\" title=\"Phenolic\">Phenolic<\/a>",
+            "title": "<a href=\"/collections/phenolic\" title=\"Phenolic\">Phenolic</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -195,7 +204,7 @@
         "column_cKthiU": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/metal-casters\" title=\"Steel\">Steel <\/a>",
+            "title": "<a href=\"/collections/metal-casters\" title=\"Steel\">Steel </a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -204,7 +213,7 @@
         "column_cK7zjg": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/solid-polyurethane\" title=\"Solid Polyurethane\">Solid Polyurethane<\/a>",
+            "title": "<a href=\"/collections/solid-polyurethane\" title=\"Solid Polyurethane\">Solid Polyurethane</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -213,7 +222,7 @@
         "column_GF7i6a": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/polyurethane-on-cast-iron\" title=\"Polyurethane on Cast Iron\">Polyurethane on Cast Iron<\/a>",
+            "title": "<a href=\"/collections/polyurethane-on-cast-iron\" title=\"Polyurethane on Cast Iron\">Polyurethane on Cast Iron</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -222,7 +231,7 @@
         "column_QRxTy8": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/polyurethane-on-polyolefin\" title=\"Polyurethane on Polyolefin\">Polyurethane on Polyolefin<\/a>",
+            "title": "<a href=\"/collections/polyurethane-on-polyolefin\" title=\"Polyurethane on Polyolefin\">Polyurethane on Polyolefin</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -231,7 +240,7 @@
         "column_eGTVNL": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/polyurethane-on-aluminum\" title=\"Polyurethane on Aluminum\">Polyurethane on Aluminum<\/a>",
+            "title": "<a href=\"/collections/polyurethane-on-aluminum\" title=\"Polyurethane on Aluminum\">Polyurethane on Aluminum</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -240,7 +249,7 @@
         "column_6iMaVD": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/polyurethane-on-polypropylene\" title=\"Polyurethane on polypropylene\">Polyurethane on polypropylene <\/a>",
+            "title": "<a href=\"/collections/polyurethane-on-polypropylene\" title=\"Polyurethane on polypropylene\">Polyurethane on polypropylene </a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -249,7 +258,7 @@
         "column_CRHCiU": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/high-temperature-nylon-glass\" title=\"High Temperature Nylon\/Glass\">High Temperature Nylon\/Glass<\/a>",
+            "title": "<a href=\"/collections/high-temperature-nylon-glass\" title=\"High Temperature Nylon/Glass\">High Temperature Nylon/Glass</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -258,7 +267,7 @@
         "column_KNNMDR": {
           "type": "column",
           "settings": {
-            "title": "<a href=\"\/collections\/high-temperature-epoxy-resin\" title=\"High Temperature Epoxy Resin\">High Temperature Epoxy Resin<\/a>",
+            "title": "<a href=\"/collections/high-temperature-epoxy-resin\" title=\"High Temperature Epoxy Resin\">High Temperature Epoxy Resin</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -302,14 +311,14 @@
           "type": "tab",
           "settings": {
             "heading": "SHOPY BY MATERIAL",
-            "tab_content": "<ul><li><a href=\"\/collections\/rubber-casters\" target=\"_blank\" title=\"Rubber\">Rubber<\/a><\/li><li><a href=\"\/collections\/phenolic\" target=\"_blank\" title=\"Phenolic\">Phenolic<\/a><\/li><li><a href=\"\/collections\/metal-casters\" target=\"_blank\" title=\"Steel\">Steel<\/a><\/li><li><a href=\"\/collections\/solid-polyurethane\" target=\"_blank\" title=\"Solid Polyurethane\">Solid Polyurethane<\/a><\/li><li><a href=\"\/collections\/polyurethane-on-cast-iron\" target=\"_blank\" title=\"Polyurethane on Cast Iron\">Polyurethane on Cast Iron<\/a><\/li><li><a href=\"\/collections\/polyurethane-on-polyolefin\" target=\"_blank\" title=\"Polyurethane on Polyolefin\">Polyurethane on Polyolefin<\/a><\/li><li><a href=\"\/collections\/polyurethane-on-aluminum\" title=\"Polyurethane on Aluminum\">Polyurethane on Aluminum<\/a><\/li><li><a href=\"\/collections\/polyurethane-on-polypropylene\" target=\"_blank\" title=\"Polyurethane on polypropylene\">Polyurethane on polypropylene<\/a><\/li><li><a href=\"\/collections\/high-temperature-nylon-glass\" target=\"_blank\" title=\"High Temperature Nylon\/Glass\">High Temperature Nylon\/Glass<\/a><\/li><li><a href=\"\/collections\/high-temperature-epoxy-resin\" target=\"_blank\" title=\"High Temperature Epoxy Resin\">High Temperature Epoxy Resin<\/a><\/li><\/ul>"
+            "tab_content": "<ul><li><a href=\"/collections/rubber-casters\" target=\"_blank\" title=\"Rubber\">Rubber</a></li><li><a href=\"/collections/phenolic\" target=\"_blank\" title=\"Phenolic\">Phenolic</a></li><li><a href=\"/collections/metal-casters\" target=\"_blank\" title=\"Steel\">Steel</a></li><li><a href=\"/collections/solid-polyurethane\" target=\"_blank\" title=\"Solid Polyurethane\">Solid Polyurethane</a></li><li><a href=\"/collections/polyurethane-on-cast-iron\" target=\"_blank\" title=\"Polyurethane on Cast Iron\">Polyurethane on Cast Iron</a></li><li><a href=\"/collections/polyurethane-on-polyolefin\" target=\"_blank\" title=\"Polyurethane on Polyolefin\">Polyurethane on Polyolefin</a></li><li><a href=\"/collections/polyurethane-on-aluminum\" title=\"Polyurethane on Aluminum\">Polyurethane on Aluminum</a></li><li><a href=\"/collections/polyurethane-on-polypropylene\" target=\"_blank\" title=\"Polyurethane on polypropylene\">Polyurethane on polypropylene</a></li><li><a href=\"/collections/high-temperature-nylon-glass\" target=\"_blank\" title=\"High Temperature Nylon/Glass\">High Temperature Nylon/Glass</a></li><li><a href=\"/collections/high-temperature-epoxy-resin\" target=\"_blank\" title=\"High Temperature Epoxy Resin\">High Temperature Epoxy Resin</a></li></ul>"
           }
         },
         "tab_cYwMCD": {
           "type": "tab",
           "settings": {
             "heading": "SHOP BY TOP PALTE SIZE",
-            "tab_content": "<p><a href=\"\/collections\/3-5-8x-2-3-8\" title=\"3-5\/8&quot;x 2-3\/8&quot;\">3-5\/8\"x 2-3\/8\"<\/a><\/p>"
+            "tab_content": "<p><a href=\"/collections/3-5-8x-2-3-8\" title=\"3-5/8&quot;x 2-3/8&quot;\">3-5/8\"x 2-3/8\"</a></p>"
           }
         }
       },
@@ -327,7 +336,7 @@
         "column_KXwNnt": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/istockphoto_1987155572.jpg",
+            "image": "shopify://shop_images/istockphoto_1987155572.jpg",
             "title": "Aerospace",
             "text": "",
             "link_label": "",
@@ -337,7 +346,7 @@
         "column_bhU4EC": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/istockphoto_1987155572.jpg",
+            "image": "shopify://shop_images/istockphoto_1987155572.jpg",
             "title": "Aerospace",
             "text": "",
             "link_label": "",
@@ -347,7 +356,7 @@
         "column_Q8fLJd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/istockphoto_1987155572.jpg",
+            "image": "shopify://shop_images/istockphoto_1987155572.jpg",
             "title": "Aerospace",
             "text": "",
             "link_label": "",
@@ -357,7 +366,7 @@
         "column_8ibjtJ": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/istockphoto_1987155572.jpg",
+            "image": "shopify://shop_images/istockphoto_1987155572.jpg",
             "title": "Aerospace",
             "text": "",
             "link_label": "",
@@ -394,7 +403,7 @@
         "column_NdbBRM": {
           "type": "column",
           "settings": {
-            "product_description_video": "https:\/\/youtu.be\/abgORaivfxI?si=1be2FreuLMPQA2TK",
+            "product_description_video": "",
             "title": "Steel wheels with brakes",
             "text": "",
             "link_label": "",
@@ -404,8 +413,8 @@
         "column_XRiFEN": {
           "type": "column",
           "settings": {
-            "product_description_video": "https:\/\/youtu.be\/6LGx-QaJJvw",
-            "title": "Polyurethane caster with brake",
+            "product_description_video": "",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
