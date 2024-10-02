@@ -326,6 +326,9 @@
         "tab_PKgcHX",
         "tab_cYwMCD"
       ],
+      "custom_css": [
+        "#content--tab_cYwMCD--template--17203876724896__tabs_columns_customize_UPFnF9 ul li {width: 200px;}"
+      ],
       "settings": {
         "main_title": ""
       }
