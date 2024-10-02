@@ -318,7 +318,7 @@
           "type": "tab",
           "settings": {
             "heading": "SHOP BY TOP PLATE SIZE",
-            "tab_content": "<p><a href=\"/collections/3-5-8x-2-3-8\" title=\"3-5/8&quot;x 2-3/8&quot;\">3-5/8\"x 2-3/8\"</a></p><p><a href=\"/collections/4-1-2-x-4\" title=\"4-1/2&quot; x 4&quot;\">4-1/2\" x 4\"</a></p>"
+            "tab_content": "<ul><li><a href=\"/collections/3-5-8x-2-3-8\" title=\"3-5/8&quot;x 2-3/8&quot;\">3-5/8\"x 2-3/8\"  </a></li><li><a href=\"/collections/4-1-2-x-4\" title=\"4-1/2&quot; x 4&quot;\">4-1/2\" x 4\"   </a></li></ul>"
           }
         }
       },
