@@ -399,8 +399,8 @@
         "column_JfptMh": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Bakery_3ad36b44-4e7f-4f4e-89e7-b34383168cc7.png",
-            "title": "<a href=\"/collections/bakery\" title=\"Bakery\">Bakery</a>",
+            "image": "shopify://shop_images/medical_bad053ce-1897-467f-9ec4-014a0f623697.jpg",
+            "title": "Health & <a href=\"/collections/health-medical\" title=\"Health & Medical\">Medical</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -409,8 +409,38 @@
         "column_8CkCmU": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Bakery_3ad36b44-4e7f-4f4e-89e7-b34383168cc7.png",
-            "title": "<a href=\"/collections/bakery\" title=\"Bakery\">Bakery</a>",
+            "image": "shopify://shop_images/hospitality_66de56d7-0a34-4339-93c3-d2e75ee8fb16.png",
+            "title": "<a href=\"/collections/hospitality\" title=\"Hospitality\">Hospitality</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wTVn7d": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Heavy_Machines_c6814076-6f8e-4d54-985e-e27323f51223.png",
+            "title": "<a href=\"/collections/industrial-heavy-machines\" title=\"Industrial & Heavy Machines\">Industrial & Heavy Machines</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XdEN8t": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Portable_Mobile_Office_Cart_with_Locking_Drawers-8-cf6b27d2fe.webp",
+            "title": "<a href=\"/collections/institution\" title=\"Institution\">Institution</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_H7tnNM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/hospitality_66de56d7-0a34-4339-93c3-d2e75ee8fb16.png",
+            "title": "<a href=\"/collections/hospitality\" title=\"Hospitality\">Hospitality</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -425,7 +455,10 @@
         "column_jJ3ra7",
         "column_3UTMLL",
         "column_JfptMh",
-        "column_8CkCmU"
+        "column_8CkCmU",
+        "column_wTVn7d",
+        "column_XdEN8t",
+        "column_H7tnNM"
       ],
       "settings": {
         "title": "Applications",
