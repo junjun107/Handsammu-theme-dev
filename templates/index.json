@@ -375,13 +375,57 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "column_jJ3ra7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/food_service_447c01d0-527a-495b-9b62-ed9b7af5d234.png",
+            "title": "<a href=\"/collections/food-service\" title=\"Food Service\">Food Processing</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3UTMLL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/furniture_3ce51ce1-a2d2-4336-b2ec-e2817cb067da.jpg",
+            "title": "<a href=\"/collections/furniture\" title=\"Furniture\">Furniture</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JfptMh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bakery_3ad36b44-4e7f-4f4e-89e7-b34383168cc7.png",
+            "title": "<a href=\"/collections/bakery\" title=\"Bakery\">Bakery</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8CkCmU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Bakery_3ad36b44-4e7f-4f4e-89e7-b34383168cc7.png",
+            "title": "<a href=\"/collections/bakery\" title=\"Bakery\">Bakery</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "column_KXwNnt",
         "column_bhU4EC",
         "column_Q8fLJd",
-        "column_8ibjtJ"
+        "column_8ibjtJ",
+        "column_jJ3ra7",
+        "column_3UTMLL",
+        "column_JfptMh",
+        "column_8CkCmU"
       ],
       "settings": {
         "title": "Applications",
