@@ -340,7 +340,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/istockphoto_1987155572.jpg",
-            "title": "Aerospace",
+            "title": "<a href=\"/collections/air-cargo\" title=\"Air Cargo\">Aerospace</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -350,7 +350,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/istockphoto_1987155572.jpg",
-            "title": "Automotive",
+            "title": "<a href=\"/collections/automotive\" title=\"Automotive\">Automotive</a>",
             "text": "",
             "link_label": "",
             "link": ""
