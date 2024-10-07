@@ -439,8 +439,18 @@
         "column_H7tnNM": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/hospitality_66de56d7-0a34-4339-93c3-d2e75ee8fb16.png",
-            "title": "<a href=\"/collections/hospitality\" title=\"Hospitality\">Hospitality</a>",
+            "image": "shopify://shop_images/tool_storage_86207c21-3f39-41bf-93cd-c30086ccfbfe.png",
+            "title": "<a href=\"/collections/tool-storage\" title=\"Tool Storage\">Tool Storage</a>",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CmfCkJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Unplated_dumpster_7037085d-7939-433b-8df5-ebf5706c7575.webp",
+            "title": "<a href=\"/collections/waste-management\" title=\"Waste Management\">Waste Management</a>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -458,7 +468,8 @@
         "column_8CkCmU",
         "column_wTVn7d",
         "column_XdEN8t",
-        "column_H7tnNM"
+        "column_H7tnNM",
+        "column_CmfCkJ"
       ],
       "settings": {
         "title": "Applications",
