@@ -360,7 +360,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/construction_b1039e28-1744-4957-9cf8-29fbb5969a1f.jpg",
-            "title": "Construction",
+            "title": "Construction<a href=\"/collections/construction\" title=\"Construction\">/collections/construction</a>",
             "text": "",
             "link_label": "",
             "link": ""
