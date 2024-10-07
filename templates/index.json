@@ -400,7 +400,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/medical_bad053ce-1897-467f-9ec4-014a0f623697.jpg",
-            "title": "Health & <a href=\"/collections/health-medical\" title=\"Health & Medical\">Medical</a>",
+            "title": "<a href=\"/collections/health-medical\" title=\"Health & Medical\">Health & Medical</a>",
             "text": "",
             "link_label": "",
             "link": ""
