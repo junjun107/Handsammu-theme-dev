@@ -76,6 +76,9 @@
     .contact_info {
       font-size: 10px;
     }
+     .header__icons .header__icon {
+      font-size: 1.2rem; /* Adjust to desired size for mobile */
+    }
   }
 </style>
 
@@ -223,6 +226,7 @@
           </div>
         </div>
       <div class="desktop-localization-wrapper">
+        
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
           <localization-form class="small-hide medium-hide" data-prevent-hide>
             {%- form 'localization', id: 'HeaderCountryForm', class: 'localization-form' -%}
