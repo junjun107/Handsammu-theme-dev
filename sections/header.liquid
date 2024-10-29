@@ -79,12 +79,13 @@
     }
   }
   @media screen and (max-width: 750px) {
-    .contact_info {
-      font-size: 10px;
-    }
-     .header__icons .header__icon {
-      font-size: 1.2rem; /* Adjust to desired size for mobile */
-    }
+   .contact_info .contact-item {
+    display: flex;
+    align-items: center;
+    font-size: 10px; /* Adjust font size to fit on mobile */
+    flex-wrap: nowrap;
+    gap: 5px; /* Space between icon and email */
+  }
   }
 </style>
 
