@@ -79,12 +79,21 @@
     }
   }
   @media screen and (max-width: 750px) {
-   .contact_info .contact-item {
+     .contact_info {
     display: flex;
     align-items: center;
-    font-size: 10px; /* Adjust font size to fit on mobile */
-    flex-wrap: nowrap;
+    font-size: 10px; /* Smaller font size for mobile */
+    max-width: 100%; /* Allow container to take full width */
+    padding: 0; /* Remove padding to save space */
+  }
+
+  .contact_info .contact-item {
+    display: flex;
+    align-items: center;
     gap: 5px; /* Space between icon and email */
+    white-space: nowrap; /* Prevents wrapping to a new line */
+    overflow: hidden; /* Ensures no extra content spills out */
+    text-overflow: ellipsis; /* Adds "..." if content is too long */
   }
   }
 </style>
