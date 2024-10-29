@@ -218,19 +218,18 @@
 
     <div class="header__icons{% if section.settings.enable_country_selector or section.settings.enable_language_selector %} header__icons--localization header-localization{% endif %}">
         <!-- New Contact Info Section -->
-        <div class="contact_info" style="text-align: left; margin-right: 20px;">
-       <span class="contact-item">
-              <a href="tel:(626)400-5802" style="text-decoration: none; color: black">
-              <i class="fas fa-phone"></i> (626)400-5802
-              </a>
-          </span>
-
-        <span class="contact-item">
-              <a href="mailto:handsammuservice@gmail.com" style="text-decoration: none; color: black">
-              <i class="fas fa-envelope"></i> handsammuservice@gmail.com
-              </a>
-          </span>
-        </div>
+    <div class="contact_info" style="text-align: left; margin-right: 20px;">
+  <span class="contact-item">
+    <a href="tel:(626)400-5802" style="text-decoration: none; color: black;">
+      <i class="fas fa-phone"></i> (626)400-5802
+    </a>
+  </span>
+  <span class="contact-item">
+    <a href="mailto:handsammuservice@gmail.com" style="text-decoration: none; color: black;">
+      <i class="fas fa-envelope"></i> handsammuservice@gmail.com
+    </a>
+  </span>
+</div>
       <div class="desktop-localization-wrapper">
         
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
