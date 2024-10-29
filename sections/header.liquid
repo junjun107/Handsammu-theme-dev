@@ -25,7 +25,7 @@
     display: flex;
       align-items: center;
     margin-bottom: 5px;
-       border:2px solid red
+    
   }
   {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
     .scrolled-past-header .header__heading-logo-wrapper {
@@ -83,18 +83,18 @@
      .contact_info {
     display: block;
     align-items: center;
-    font-size: 10px; /* Smaller font size for mobile */
-    max-width: 100%; /* Allow container to take full width */
-    padding: 0; /* Remove padding to save space */
+    font-size: 10px;
+    max-width: 100%;
+    padding: 0; 
   }
 
   .contact_info .contact-item {
     display: flex;
     align-items: center;
-    gap: 5px; /* Space between icon and email */
-    white-space: nowrap; /* Prevents wrapping to a new line */
-    overflow: hidden; /* Ensures no extra content spills out */
-    text-overflow: ellipsis; /* Adds "..." if content is too long */
+    gap: 5px; 
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
   }
   }
 </style>
