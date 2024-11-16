@@ -19,42 +19,10 @@
     },
     "image_banner_hWJzjc": {
       "type": "image-banner",
-      "blocks": {
-        "heading_r7bBz6": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "text_xC6hKp": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
-        "buttons_WGie7D": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_r7bBz6",
-        "text_xC6hKp",
-        "buttons_WGie7D"
-      ],
       "settings": {
         "image": "shopify://shop_images/We_are_here_to_help.png",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
