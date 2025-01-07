@@ -33,13 +33,13 @@
         "slide_U3PyEN": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/steel2.svg",
-            "heading": "Steel Casters",
+            "image": "shopify://shop_images/2.jpg",
+            "heading": "",
             "heading_size": "hxl",
             "subheading": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "link": "",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "center",
