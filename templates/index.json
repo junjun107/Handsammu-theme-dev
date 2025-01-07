@@ -15,13 +15,13 @@
         "slide_eEGTAP": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/HANDSAMMU_CASTERS.svg",
-            "heading": "Rubber Casters",
+            "image": "shopify://shop_images/1.jpg",
+            "heading": "",
             "heading_size": "hxl",
             "subheading": "",
-            "button_label": "Shop Now",
+            "button_label": "",
             "link": "",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": false,
             "text_alignment": "center",
