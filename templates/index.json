@@ -92,11 +92,11 @@
         "slide_PeHPYi"
       ],
       "custom_css": [
-        ".banner--adapt, .banner--adapt_image.banner--mobile-bottom .banner__media:not(.placeholder) {height: 90%;}"
+        ".banner--adapt,.banner--adapt_image.banner--mobile-bottom .banner__media:not(.placeholder) {height: 90%;}"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "large",
+        "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
