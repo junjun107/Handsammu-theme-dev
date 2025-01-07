@@ -92,7 +92,7 @@
         "slide_PeHPYi"
       ],
       "custom_css": [
-        ".banner--adapt,.banner--adapt_image.banner--mobile-bottom .banner__media:not(.placeholder) {height: 80%;}"
+        ".banner--adapt {height: 80%;}"
       ],
       "settings": {
         "layout": "full_bleed",
