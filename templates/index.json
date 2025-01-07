@@ -91,9 +91,12 @@
         "slide_nmXbdg",
         "slide_PeHPYi"
       ],
+      "custom_css": [
+        ".banner--adapt, .banner--adapt_image.banner--mobile-bottom .banner__media:not(.placeholder) {height: 90%;}"
+      ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "large",
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
