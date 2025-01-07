@@ -51,13 +51,13 @@
         "slide_nmXbdg": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Copy_of_HANDSAMMU_CASTERS_1.svg",
-            "heading": "Solid Polyurethane Casters",
+            "image": "shopify://shop_images/3.jpg",
+            "heading": "",
             "heading_size": "h0",
             "subheading": "",
-            "button_label": "Button label",
+            "button_label": "",
             "link": "",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "bottom-center",
             "show_text_box": false,
             "text_alignment": "center",
