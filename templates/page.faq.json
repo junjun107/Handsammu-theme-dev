@@ -56,6 +56,7 @@
         },
         "item_miGEmR": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "question": "Question",
             "answer": "<p>Answer</p>"
@@ -63,13 +64,7 @@
         },
         "item_rpztiW": {
           "type": "item",
-          "settings": {
-            "question": "Question",
-            "answer": "<p>Answer</p>"
-          }
-        },
-        "item_3qh9AK": {
-          "type": "item",
+          "disabled": true,
           "settings": {
             "question": "Question",
             "answer": "<p>Answer</p>"
@@ -83,8 +78,7 @@
         "item_V8wXNg",
         "item_mg93zh",
         "item_miGEmR",
-        "item_rpztiW",
-        "item_3qh9AK"
+        "item_rpztiW"
       ],
       "settings": {
         "layout_gap": 0,
