@@ -46,13 +46,45 @@
             "question": "What are the benefits of choosing American-made casters?",
             "answer": "<p> Opting for American-made casters<br/>ensures:</p><ol><li>Durability and Longevity: Built to withstand heavy loads and continuous<br/>use, American-made casters are designed to last.</li><li>Superior Quality and Reliability: Subjected to rigorous testing, these<br/>casters deliver dependable performance with minimal risk of failure.</li><li>Support for the Local Economy: By purchasing American-made products,<br/>you contribute to the growth of local businesses and job creation within your community.</li></ol>"
           }
+        },
+        "item_mg93zh": {
+          "type": "item",
+          "settings": {
+            "question": " Is bigger always better? Why does caster wheel size matter?",
+            "answer": "<ol><li>The Weight of Your Equipment: Larger wheels generally support heavier loads.<br/>Ensure the wheels’ load rating matches your equipment’s requirements.</li><li>Your Equipment Dimensions: Consider the width of the item being<br/>transported. Wider equipment may require larger wheels for stability.</li><li>The Type of Terrain: For rough terrain, select wheels with a high load<br/>capacity and larger diameter. For smooth surfaces, smaller wheels with lower load capacities may suffice.</li></ol>"
+          }
+        },
+        "item_miGEmR": {
+          "type": "item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "item_rpztiW": {
+          "type": "item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
+        },
+        "item_3qh9AK": {
+          "type": "item",
+          "settings": {
+            "question": "Question",
+            "answer": "<p>Answer</p>"
+          }
         }
       },
       "block_order": [
         "item_9KXbTR",
         "item_p344mY",
         "item_LiFRFY",
-        "item_V8wXNg"
+        "item_V8wXNg",
+        "item_mg93zh",
+        "item_miGEmR",
+        "item_rpztiW",
+        "item_3qh9AK"
       ],
       "settings": {
         "layout_gap": 0,
