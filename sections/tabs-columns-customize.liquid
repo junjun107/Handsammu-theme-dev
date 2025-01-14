@@ -116,19 +116,23 @@
 <div class="custom-tabs-section">
   <h2 class="main-title">{{ section.settings.main_title }}</h2>
 
-  <ul class="custom--tabs page-width">
-    {% for block in section.blocks %}
-      {% if block.type == 'tab' %}
-        <li class="tab__list {% if forloop.first %}active{% endif %}">
-          <h2 class="custom-tab" data-content-id="content--{{ block.id }}--{{ section.id }}">
+ <ul class="custom--tabs page-width">
+  {% for block in section.blocks %}
+    {% if block.type == 'tab' %}
+      <li class="tab__list {% if forloop.first %}active{% endif %}">
+        <h2 class="custom-tab" data-content-id="content--{{ block.id }}--{{ section.id }}">
+          <span class="tab-content">
             {{ block.settings.heading }}
-           <img src="{{ block.settings.icon_url }}" width="50" height="50" alt="Tab Icon">
-          </h2>
-        </li>
-      {% endif %}
-    {% endfor %}
-  </ul>
-
+            {% if block.settings.icon_url %}
+              <img src="{{ block.settings.icon_url }}" alt="Tab Icon" class="tab-icon">
+            {% endif %}
+          </span>
+        </h2>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+  
   {% for block in section.blocks %}
     {% if block.type == 'tab' %}
       <div id="content--{{ block.id }}--{{ section.id }}" class="custom__tab-content page-width {% if forloop.first %}active{% endif %}">
