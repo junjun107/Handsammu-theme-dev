@@ -12,24 +12,6 @@
     "slideshow_GDfMYg": {
       "type": "slideshow",
       "blocks": {
-        "slide_U3PyEN": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/HANDSAMMU_CASTERS.svg",
-            "heading": "",
-            "heading_size": "hxl",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-4",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_nmXbdg": {
           "type": "slide",
           "settings": {
@@ -45,6 +27,24 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-3",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_U3PyEN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/HANDSAMMU_CASTERS.svg",
+            "heading": "",
+            "heading_size": "hxl",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-4",
             "text_alignment_mobile": "center"
           }
         },
@@ -86,13 +86,14 @@
         }
       },
       "block_order": [
-        "slide_U3PyEN",
         "slide_nmXbdg",
+        "slide_U3PyEN",
         "slide_eEGTAP",
         "slide_WYQmxm"
       ],
       "custom_css": [
-        ".banner--adapt {height: 80%;}"
+        ".banner--adapt {height: 80%;}",
+        "h2{color:antiquewhite}"
       ],
       "settings": {
         "layout": "full_bleed",
