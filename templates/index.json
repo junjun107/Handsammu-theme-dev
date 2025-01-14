@@ -295,7 +295,7 @@
           "type": "tab",
           "settings": {
             "heading": "SHOPY BY MATERIAL",
-            "icon_url": "",
+            "icon_url": "https://res.cloudinary.com/dbxdbtxle/image/upload/v1736883608/material-icon_a2cgjm.svg",
             "tab_content": "<ul><li><a href=\"/collections/rubber-casters\" target=\"_blank\" title=\"Rubber\">Rubber</a></li><li><a href=\"/collections/phenolic\" target=\"_blank\" title=\"Phenolic\">Phenolic</a></li><li><a href=\"/collections/metal-casters\" target=\"_blank\" title=\"Steel\">Steel</a></li><li><a href=\"/collections/solid-polyurethane\" target=\"_blank\" title=\"Solid Polyurethane\">Solid Polyurethane</a></li><li><a href=\"/collections/polyurethane-on-cast-iron\" target=\"_blank\" title=\"Polyurethane on Cast Iron\">Polyurethane on Cast Iron</a></li><li><a href=\"/collections/polyurethane-on-polyolefin\" target=\"_blank\" title=\"Polyurethane on Polyolefin\">Polyurethane on Polyolefin</a></li><li><a href=\"/collections/polyurethane-on-aluminum\" title=\"Polyurethane on Aluminum\">Polyurethane on Aluminum</a></li><li><a href=\"/collections/polyurethane-on-polypropylene\" target=\"_blank\" title=\"Polyurethane on polypropylene\">Polyurethane on polypropylene</a></li><li><a href=\"/collections/high-temperature-nylon-glass\" target=\"_blank\" title=\"High Temperature Nylon/Glass\">High Temperature Nylon/Glass</a></li><li><a href=\"/collections/high-temperature-epoxy-resin\" target=\"_blank\" title=\"High Temperature Epoxy Resin\">High Temperature Epoxy Resin</a></li></ul>"
           }
         },
