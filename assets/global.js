@@ -1266,3 +1266,18 @@ class BulkAdd extends HTMLElement {
 if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
+document.addEventListener('DOMContentLoaded', function () {
+  const skuElement = document.getElementById('variant-sku');
+  const variantSelect = document.querySelector('[name="id"]'); // Adjust selector for your theme
+
+  if (variantSelect) {
+    variantSelect.addEventListener('change', function () {
+      const selectedVariantId = parseInt(this.value, 10);
+      const selectedVariant = variants.find(v => v.id === selectedVariantId);
+      
+      if (selectedVariant) {
+        skuElement.textContent = `SKU: ${selectedVariant.sku || 'Not available'}`;
+      }
+    });
+  }
+});
