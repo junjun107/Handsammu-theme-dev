@@ -77,6 +77,30 @@
     border-bottom: 5px solid green !important;
     background-color: #dfdfdf;
   }
+
+  .custom-tab {
+  display: flex;
+  align-items: center; /* Align heading and icon vertically */
+  gap: 10px; /* Space between heading and icon */
+}
+
+.tab-icon {
+  width: 20px; /* Adjust icon size */
+  height: 20px; /* Adjust icon size */
+}
+
+.tab__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.custom--tabs {
+  display: flex;
+  flex-direction: column; /* Ensure tabs stack vertically */
+  gap: 15px; /* Space between tab items */
+}
+
   @media only screen and (max-width: 1200px) {
     .custom__tab-content li {
       flex-basis: calc(100% / 3 - 10px);
