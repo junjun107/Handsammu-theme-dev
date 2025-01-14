@@ -57,11 +57,7 @@
     cursor: pointer !important;
     margin: 0 !important;
   }
-  .tab-heading .tab-icon {
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
-}
+
   .active-always {
     display: block !important;
   }
@@ -119,7 +115,7 @@
           <span class="tab-content">
             {{ block.settings.heading }}
             {% if block.settings.icon_url %}
-              <img src="{{ block.settings.icon_url }}" alt="Tab Icon" class="tab-icon">
+              <img src="{{ block.settings.icon_url }}" alt="Tab Icon" class="tab-icon"  width="50" height="50">
             {% endif %}
           </span>
         </h2>
