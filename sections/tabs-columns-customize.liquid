@@ -1,42 +1,69 @@
 {% stylesheet %}
-  
-/* Align heading and icon in tabs */
-.tab-heading {
-  display: flex;
-  align-items: center;
-  gap: 8px; /* Space between heading and icon */
-}
+  .main-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: green;
+  }
+  ul.custom--tabs {
+    list-style-type: none;
+    width: 1200px;
+    max-width: 100%;
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .custom--tabs .tab__list {
+    display: flex;
+  }
 
-.tab-heading .tab-icon {
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
-}
+  .custom__tab-content {
+    display: none;
+  }
+  .custom__tab-content ul {
+    display: flex;
+    flex-wrap: wrap; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  .custom__tab-content li {
+    list-style: none;
+    flex-grow: 1;
+    flex-basis: calc(100% / 5 - 10px);
+    min-width: calc(100% / 5 - 10px);
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #374931;
+    margin: 5px;
+    transition: background-color 0.3s ease;
 
-/* Preserve existing styles */
-ul.custom--tabs {
-  list-style-type: none;
-  width: 1200px;
-  max-width: 100%;
-  display: flex !important;
-  flex-wrap: wrap !important;
-}
+  }
+  .custom__tab-content li:hover {
+    background-color: #88976d;
+  }
 
-.custom--tabs .tab__list {
-  display: flex;
-}
+  .custom__tab-content li a {
+    text-decoration: none;
+    color: white;
+    /* Optional: set text color to contrast the background */
+  }
+  .custom__tab-content.active {
+    display: flex
+  }
+  .tab__list h2.custom-tab {
+    display: inline-block !important;
+    padding: 10px 15px !important;
+    cursor: pointer !important;
+    margin: 0 !important;
+  }
+  .active-always {
+    display: block !important;
+  }
+  .tab__list h2.custom-tab.active {
 
-.tab__list h2.custom-tab {
-  display: inline-block !important;
-  padding: 10px 15px !important;
-  cursor: pointer !important;
-  margin: 0 !important;
-}
-
-.tab__list h2.custom-tab.active {
-  border-bottom: 5px solid green !important;
-  background-color: #dfdfdf;
-}
+    border-bottom: 5px solid green !important;
+    background-color: #dfdfdf;
+  }
 
   
   @media only screen and (max-width: 1200px) {
