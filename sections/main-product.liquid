@@ -41,9 +41,14 @@
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+  <script>
+  const variants = {{ product.variants | json }};
+</script>
+
   {%- if product.quantity_price_breaks_configured? -%}
     <script src="{{ 'show-more.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'price-per-item.js' | asset_url }}" defer="defer"></script>
+    
   {%- endif -%}
 
   {% if section.settings.image_zoom == 'hover' %}
@@ -106,16 +111,12 @@
                   </a>
                 </div>
               <!-- SKU at product deatil  -->
-              <div class="hideAll">
-    <p><span>SKU: </span><span class="sku"></span></p>       
-</div>
+{% if product.selected_or_first_available_variant.sku != blank %}
+  <p id="variant-sku">SKU: {{ product.selected_or_first_available_variant.sku }}</p>
+{% else %}
+  <p>SKU: Not available</p>
+{% endif %}
 
-{% capture 'variant_sku' %}       
-    {% for variant in product.variants %}
-        {{variant.id}}:{{ variant.sku| json }}
-        {% unless forloop.last %},{% endunless %}           
-   {% endfor %}
-{% endcapture %}  
               
               {%- when 'price' -%}
                 <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
