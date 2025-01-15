@@ -45,9 +45,7 @@
     },
     "header": {
       "type": "header",
-      "custom_css": [
-        ".header__menu-item {font-size: 18px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
@@ -56,7 +54,7 @@
         "mega_menu_images_title": false,
         "megamenu_backdrop_toggle": true,
         "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "",
         "enable_country_selector": true,
