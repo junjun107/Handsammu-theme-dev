@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -5,17 +14,8 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "image_ekGBqq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Heading_200_x_100_px.png",
-            "image_width": 335,
-            "alignment": "center"
-          }
-        },
         "footer-0": {
           "type": "link_list",
-          "disabled": true,
           "settings": {
             "heading": "Quick links",
             "menu": "footer"
@@ -33,19 +33,16 @@
           "disabled": true,
           "settings": {
             "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+            "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
           }
         }
       },
       "block_order": [
-        "image_ekGBqq",
         "footer-0",
         "footer-1",
         "footer-2"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-90c4885e-cecc-4467-b928-25f2faea83b4",
         "newsletter_enable": true,
