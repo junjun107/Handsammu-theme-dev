@@ -484,14 +484,14 @@
         "heading_tdV4Ri": {
           "type": "heading",
           "settings": {
-            "heading": "Need customization ?",
+            "heading": "Looking for custom solutions?",
             "heading_size": "h1"
           }
         },
         "text_UMVRnF": {
           "type": "text",
           "settings": {
-            "text": "Looking for custom solutions? Whether you need individual wheels, want to upgrade to kingpinless yokes, switch to stainless steel components, or replace standard roller bearings with precision bearings - we offer comprehensive customization options to meet your specific requirements.",
+            "text": "Whether you need individual wheels, want to upgrade to kingpinless yokes, switch to stainless steel components, or replace standard roller bearings with precision bearings - we offer comprehensive customization options to meet your specific requirements.",
             "text_style": "body"
           }
         },
@@ -512,8 +512,11 @@
         "text_UMVRnF",
         "buttons_crNPGR"
       ],
+      "custom_css": [
+        ".banner__box {background-color: transparent;}"
+      ],
       "settings": {
-        "image": "shopify://shop_images/handsammu-support-banner.png",
+        "image": "shopify://shop_images/Untitled_design_34.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-right",
