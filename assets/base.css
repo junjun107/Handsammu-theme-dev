@@ -3598,3 +3598,17 @@ details-disclosure > details {
     transform: translateX(100%) scaleX(0);
   }
 }
+@media screen and (min-width: 990px) {
+.header-wrapper.color-scheme-1.gradient.header-wrapper--border-bottom {
+max-width: 100% !important;
+}
+.header:not(.drawer-menu).page-width {
+max-width: 100% !important;
+}
+.header--middle-left .header__inline-menu {
+margin-left: 33rem !important;
+}
+.header__menu-item {
+padding: 2.2rem !important;
+}
+}
