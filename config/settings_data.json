@@ -107,6 +107,7 @@
     "sold_out_badge_color_scheme": "scheme-3",
     "brand_headline": "Handsammu Casters and Wheels",
     "brand_description": "<p>Specialized in industrial strength casters and wheels </p>",
+    "brand_image": "shopify://shop_images/HANDSAMMU-caster-logo.png",
     "social_facebook_link": "",
     "social_instagram_link": "",
     "social_youtube_link": "https://www.youtube.com/@HandsammuCaster",
@@ -120,10 +121,11 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
-    "cart_type": "notification",
+    "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "cart_color_scheme": "",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
