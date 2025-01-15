@@ -45,6 +45,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "a span{font-size:16px;}"
+      ],
       "settings": {
         "logo_position": "middle-left",
         "menu": "main-menu",
