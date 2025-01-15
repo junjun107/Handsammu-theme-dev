@@ -481,9 +481,9 @@
     "image_banner_9dc9Uf": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/Untitled_design_33.png",
+        "image": "shopify://shop_images/08e0da17-183f-482f-b811-fc4ab96d34e3.__CR0_0_1464_600_PT0_SX1464_V1.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
