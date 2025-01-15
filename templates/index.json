@@ -526,8 +526,8 @@
         "color_scheme": "scheme-90c4885e-cecc-4467-b928-25f2faea83b4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "multicolumn_video_custom_EWEDTK": {
