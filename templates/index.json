@@ -513,7 +513,8 @@
         "buttons_crNPGR"
       ],
       "custom_css": [
-        ".banner__box {background-color: transparent;}"
+        "h2{color:white;}",
+        ".banner__box {background-color: transparent; color: white;}"
       ],
       "settings": {
         "image": "shopify://shop_images/Untitled_design_34.png",
