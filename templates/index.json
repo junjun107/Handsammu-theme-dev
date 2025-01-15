@@ -500,7 +500,7 @@
           "settings": {
             "button_label_1": "Contact Us",
             "button_link_1": "",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -513,7 +513,7 @@
         "buttons_crNPGR"
       ],
       "custom_css": [
-        "h2{color:white;}",
+        "h2 {color: white;}",
         ".banner__box {background-color: transparent; color: white;}"
       ],
       "settings": {
@@ -523,7 +523,7 @@
         "desktop_content_position": "middle-right",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-90c4885e-cecc-4467-b928-25f2faea83b4",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
